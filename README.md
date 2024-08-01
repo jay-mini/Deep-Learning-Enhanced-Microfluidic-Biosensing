@@ -10,8 +10,8 @@ The prevalence of foodborne bacteria presents a significant public health risk, 
 
 - Python 3.6
 - CUDA 12.1
-- PyTorch 1.10.2
-- torchvision 0.11.3
+- torch 2.3.1+cu121
+- torchvision 0.18.1+cu121
 - PIL
 - - Other dependencies as listed in `requirements.txt`
 
