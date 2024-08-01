@@ -37,10 +37,3 @@ The prevalence of foodborne bacteria presents a significant public health risk, 
     ```bash
     pip install -r requirements.txt
     ```
-
-### Running the Model
-
-To run the model, use the following command:
-```bash
-python main.py --input your_input_data
-
