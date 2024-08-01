@@ -13,7 +13,7 @@ The prevalence of foodborne bacteria presents a significant public health risk, 
 - torch 2.3.1+cu121
 - torchvision 0.18.1+cu121
 - PIL
-- - Other dependencies as listed in `requirements.txt`
+- Other dependencies as listed in `requirements.txt`
 
 ### Hardware
 
