@@ -9,7 +9,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.optimize import minimize
 from sklearn.linear_model import LinearRegression
-from Data_process import get_fluorescence_statistics
+from qd_unsupervised_lod import get_fluorescence_statistics
 from matplotlib import rcParams
 
 config = {
@@ -121,7 +121,7 @@ def error_function(params):
 
 
 if __name__ == '__main__':
-    base_path = r'C:\Users\Rubis\Desktop\Documents\Escherichia coli detection\QD_detection\Data\QD_Water'
+    base_path = r'\Escherichia coli detection\QD_detection\Data\QD_Water'
     folders = ['400', '3000', '30000', '300000', '3000000']
     image_files = []
 

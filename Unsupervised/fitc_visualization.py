@@ -137,7 +137,7 @@ def plot_fluorescence_statistics(log_labels, mean_values, std_values):
 
 
 if __name__ == '__main__':
-    main_directory = r'C:\Users\Rubis\Desktop\Documents\Escherichia coli detection\QD_detection\Data\FITC'
+    main_directory = r'\Escherichia coli detection\QD_detection\Data\FITC'
     optimal_k, optimal_d = 0.2, 10.5
     # optimal_k, optimal_d = 1.1136513883602932, 20.0
 

@@ -54,7 +54,7 @@ def get_fluorescence_statistics_for_background(background_directory, k, d):
 
 
 if __name__ == '__main__':
-    main_directory = r'C:\Users\Rubis\Desktop\Documents\Escherichia coli detection\QD_detection\Data\FITC'
+    main_directory = r'\Escherichia coli detection\QD_detection\Data\FITC'
     background_directory = os.path.join(main_directory, 'background')
     optimal_k, optimal_d = 0.2, 10.5
 

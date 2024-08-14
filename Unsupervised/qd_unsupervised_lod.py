@@ -161,7 +161,7 @@ def predict_fluorescence_in_background(model, coef, intercept, k, d, directory):
 
 
 if __name__ == '__main__':
-    base_path = r'C:\Users\Rubis\Desktop\Documents\Escherichia coli detection\QD_detection\Data\QD_Water'
+    base_path = r'\Escherichia coli detection\QD_detection\Data\QD_Water'
     folders = ['400', '3000', '30000', '300000', '3000000']
     image_files = []
 
@@ -180,7 +180,7 @@ if __name__ == '__main__':
     for i, value in enumerate(calculated_fluorescence_values):
         print(f"Image {i + 1}: {value}")
 
-    main_directory = r'C:\Users\Rubis\Desktop\Documents\Escherichia coli detection\QD_detection\Data\QD_Water'
+    main_directory = r'\Escherichia coli detection\QD_detection\Data\QD_Water'
     log_labels, mean_values, std_values, all_image_names, all_fluorescence_values, all_log_labels = get_fluorescence_statistics(
         main_directory, optimal_k, optimal_d)
     model, coef, intercept = plot_fluorescence_statistics(log_labels, mean_values, std_values)
@@ -198,5 +198,5 @@ if __name__ == '__main__':
     # df.to_excel(os.path.join(main_directory, 'qd_water_data.xlsx'), index=False)
 
     # 预测PBS_Buffer文件夹下background子文件夹的Fluorescence Value
-    pbs_buffer_directory = r'C:\Users\Rubis\Desktop\Documents\Escherichia coli detection\QD_detection\Data\PBS-Buffer\background'
+    pbs_buffer_directory = r'\Escherichia coli detection\QD_detection\Data\PBS-Buffer\background'
     predict_fluorescence_in_background(model, coef, intercept, optimal_k, optimal_d, pbs_buffer_directory)

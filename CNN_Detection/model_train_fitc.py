@@ -100,7 +100,7 @@ if __name__ == '__main__':
     # device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
     device = torch.device('cpu')
-    data_dir = r'C:\Users\Rubis\Desktop\Documents\Escherichia coli detection\QD_detection\Data\FITC'
+    data_dir = r'\Escherichia coli detection\QD_detection\Data\FITC'
     folders = [400, 3000, 30000, 300000, 3000000]
     image_size = (2048, 2048)
 

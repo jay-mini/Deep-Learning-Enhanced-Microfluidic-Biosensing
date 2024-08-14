@@ -74,7 +74,7 @@ def predict_model(model, dataloader, device):
 if __name__ == '__main__':
     device = torch.device('cpu')
 
-    data_dir = r'C:\Users\Rubis\Desktop\Documents\Escherichia coli detection\QD_detection\Data\FITC'
+    data_dir = r'\Escherichia coli detection\QD_detection\Data\FITC'
     category = 'background'
     pretrained_path = 'best_model_resnet18_FITC.pth'
     image_size = (2048, 2048)

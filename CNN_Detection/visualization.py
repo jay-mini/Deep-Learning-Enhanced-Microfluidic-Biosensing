@@ -91,7 +91,7 @@ def evaluate_model(model, dataloader, device, category):
 if __name__ == '__main__':
     device = torch.device('cpu')
 
-    data_dir = r'C:\Users\Rubis\Desktop\Documents\Escherichia coli detection\QD_detection\Data'
+    data_dir = r'\Escherichia coli detection\QD_detection\Data'
     categories = ['PBS-Buffer', 'Milk', 'Chicken']
     pretrained_paths = {
         'PBS-Buffer': 'best_model_resnet18_all.pth',

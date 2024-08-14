@@ -173,7 +173,7 @@ def error_function(params):
 
 
 if __name__ == '__main__':
-    base_path = r'C:\Users\Rubis\Desktop\Documents\Escherichia coli detection\QD_detection\Data\QD_Water'
+    base_path = r'\Escherichia coli detection\QD_detection\Data\QD_Water'
     folders = ['10', '15', '20', '28', '58', '400', '3000', '30000', '300000', '3000000']
     image_files = []
 
@@ -197,7 +197,7 @@ if __name__ == '__main__':
     for i, value in enumerate(calculated_fluorescence_values):
         print(f"Image {i + 1}: {value}")
 
-    main_directory = r'C:\Users\Rubis\Desktop\Documents\Escherichia coli detection\QD_detection\Data\QD_Water'
+    main_directory = r'\Escherichia coli detection\QD_detection\Data\QD_Water'
     log_labels, mean_values, std_values, all_image_names, all_fluorescence_values, all_log_labels = get_fluorescence_statistics(
         main_directory, optimal_k, optimal_d)
     model, coef, intercept = plot_fluorescence_statistics(log_labels, mean_values, std_values)

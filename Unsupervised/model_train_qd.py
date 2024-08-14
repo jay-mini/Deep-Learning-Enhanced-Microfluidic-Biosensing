@@ -44,7 +44,7 @@ def error_function(params):
 
 
 if __name__ == '__main__':
-    path = r'C:\Users\Rubis\Desktop\Documents\Escherichia coli detection\QD_detection\Data\train'
+    path = r'\Escherichia coli detection\QD_detection\Data\train'
     image_files = [r'\10.bmp', r'\15.bmp', r'\20.bmp', r'\28.bmp', r'\58.bmp', r'\400.bmp', r'\3000.bmp', r'\30000.bmp', r'\300000.bmp', r'\3000000.bmp']
 
     # 优化阈值 k

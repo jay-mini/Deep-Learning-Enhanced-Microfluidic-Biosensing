@@ -17,7 +17,7 @@ from PIL import Image
 
 if __name__ == '__main__':
     device = 'cpu'
-    data_dir = r'C:\Users\Rubis\Desktop\Documents\Escherichia coli detection\QD_detection\Data\QD'
+    data_dir = r'\Escherichia coli detection\QD_detection\Data\QD'
     folders = [10, 15, 20, 28, 58]
     image_size = (2048, 2048)
 

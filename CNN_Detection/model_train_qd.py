@@ -101,7 +101,7 @@ if __name__ == '__main__':
     device = torch.device('cpu')
     # data_dir = r'C:\Users\Rubis\Desktop\Documents\Escherichia coli detection\QD_detection\Data\QD_all'
     # folders = [10, 15, 20, 28, 58, 400, 3000, 30000, 300000, 3000000]
-    data_dir = r'C:\Users\Rubis\Desktop\Documents\Escherichia coli detection\QD_detection\Data'
+    data_dir = r'\Escherichia coli detection\QD_detection\Data'
     categories = ['PBS-Buffer', 'Milk', 'Chicken']
     # folders = [10, 15, 20, 28, 50, 58, 100, 200, 320, 400, 3000, 3200, 4000, 30000, 32000, 70000, 300000, 3000000]
     image_size = (2048, 2048)
